@@ -24,7 +24,7 @@ spec:
       description: |
         flag (`true` | `false`) to indicate if the task should fail or continue
         if issues are found in the Dockerfile lint
-      default: "true"
+      default: "false"
     - name: pipeline-debug
       description: Pipeline debug mode. Value can be 0 or 1. Default to 0
       default: "0"
